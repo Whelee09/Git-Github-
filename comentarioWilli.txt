@@ -1,0 +1,13 @@
+git innit. inicia el respositorio
+
+ls -al. muestra los archivos ocultos
+
+git status. para ver el estado actual
+git add. anade archivos al stagging
+
+git rm --cached (lo saca del stagging)
+git commit -m "texto".  envia los cambios al repo y el -m es para le mensaje
+
+git config. configurar git
+git config --list. configuracion por defecto
+git config --global user.name "name"
