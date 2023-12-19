@@ -11,3 +11,10 @@ git commit -m "texto".  envia los cambios al repo y el -m es para le mensaje
 git config. configurar git
 git config --list. configuracion por defecto
 git config --global user.name "name"
+
+git log "nombre del archivo.extension"
+
+git show nombreArchivo. muestra los cambios que han existido sobre un archivo
+
+como salir de vim? esc+shift+zz
+como empezar a escribir en vim. ctrl + i (de insertar)
