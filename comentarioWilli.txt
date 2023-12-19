@@ -24,3 +24,7 @@ git diff tag1 tag2
 git reset tag --hard. todo vuelve al estado anterior de ese commit  y "borra" los commit que se hicieron despues
 git reset tag --soft. lo que esta en stagging sigue ahi disponible para un nuevo commit 
 git diff. muestra los cambios del editor de codigo vs los que estan en stagging
+
+git log --stat. cambios especificos hechos en cada archivo(muestra la cantidad de bytes)
+
+git checkout tagQueQUieroVer nombreArchivo
