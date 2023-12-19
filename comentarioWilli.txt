@@ -16,5 +16,11 @@ git log "nombre del archivo.extension"
 
 git show nombreArchivo. muestra los cambios que han existido sobre un archivo
 
-como salir de vim? esc+shift+zz
+como salir de vim? esc+shift+zz.. en realidad no nos salimos asi sino que se guarda el archivo
 como empezar a escribir en vim. ctrl + i (de insertar)
+
+git diff tag1 tag2
+
+git reset tag --hard. todo vuelve al estado anterior de ese commit  y "borra" los commit que se hicieron despues
+git reset tag --soft. lo que esta en stagging sigue ahi disponible para un nuevo commit 
+git diff. muestra los cambios del editor de codigo vs los que estan en stagging
