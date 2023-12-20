@@ -27,4 +27,4 @@ git diff. muestra los cambios del editor de codigo vs los que estan en stagging
 
 git log --stat. cambios especificos hechos en cada archivo(muestra la cantidad de bytes)
 
-git checkout tagQueQUieroVer nombreArchivo
+git checkout (tagQueQUieroVer || master(para vlver)) nombreArchivo
