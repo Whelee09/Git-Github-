@@ -13,3 +13,7 @@ body {
     border: 1px solid;
     margin: 0 auto;
 }
+#cabecera{
+    background-color: chartreuse;
+    font-size: 25px;
+}
