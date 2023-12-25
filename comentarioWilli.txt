@@ -35,4 +35,6 @@ git branch nombreNueva
 
 git show. muestra el ultimo camvio que hicimos y hacia donde apunta head
 
-git checkout nombreRamaADondeMeQuieroMover  
+git checkout nombreRamaADondeMeQuieroMover. Para moverme entre ramas  
+
+git merge . lo ejecuto desde la rama main o a la que  quiero llevar los cambios
