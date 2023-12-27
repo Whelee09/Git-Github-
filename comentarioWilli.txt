@@ -38,3 +38,30 @@ git show. muestra el ultimo camvio que hicimos y hacia donde apunta head
 git checkout nombreRamaADondeMeQuieroMover. Para moverme entre ramas  
 
 git merge . lo ejecuto desde la rama main o a la que  quiero llevar los cambios
+
+git remote add origin linkRepoGithub. anadimos una rama remota 
+
+git remote. devuelve el nombre de la rama remota
+git remote -v. 
+
+git push ramaRemota ramaADondeSeQuiereEnviar. git envia a la rama remota la rama local
+
+git branch -m nombreRama.  cambiar de rama
+
+git pull ramaRemota ramaMainLocal. trae lo externo que haya a nuestro repo local
+
+git pull ramaRemota ramaMainLocal --allow-unrelated-histories. ya que no hay commits comun lo frozamos
+
+git log --all. muestra todos os logs independientemente de la rama en la que estemos
+git log --all --graph. 
+git log --all --graph --decorate --oneline. te muestra "graficamente" 
+toda la historia de tus versiones inluyenfo ramas y merges
+
+alias nombreNuevoSimple="comando".  le da otro nombre al mismo comando 
+
+git tag -a nombreTag -m "mensaje" hash. le poneoms un tag al hash
+git tag. muestra la lista de todos los tags
+git show-ref --tags. muestra el nombre del tag asociado a hash (x) comit
+git push nombreRamaRemota --tags. envia los tags el repo externo
+git tag -d nombreTagABorrar. borra un tag pero solo desde algo interno pero no en el repo de Github
+git push origin :refs/tags/nombreTagABorrar. borra la referencia a nuesta referencia (la borra de github)
