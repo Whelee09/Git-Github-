@@ -44,7 +44,7 @@ git remote add origin linkRepoGithub. anadimos una rama remota
 git remote. devuelve el nombre de la rama remota
 git remote -v. 
 
-git push ramaRemota ramaADondeSeQuiereEnviar. git envia a la rama remota la rama local
+git push ramaRemota ramaDesdeSeQuiereEnviar. git envia a la rama remota la rama local
 
 git branch -m nombreRama.  cambiar de rama
 
@@ -65,3 +65,7 @@ git show-ref --tags. muestra el nombre del tag asociado a hash (x) comit
 git push nombreRamaRemota --tags. envia los tags el repo externo
 git tag -d nombreTagABorrar. borra un tag pero solo desde algo interno pero no en el repo de Github
 git push origin :refs/tags/nombreTagABorrar. borra la referencia a nuesta referencia (la borra de github)
+
+git show-branch. nos muestra las ramas y su historia
+git show-branch --all. lo mismo pero con mas datos
+gitk. intefaz grafica fina
