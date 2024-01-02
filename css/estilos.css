@@ -18,3 +18,10 @@ body {
     background-color: chartreuse;
     font-size: 25px;
 }
+#footer{
+    background-color: #777;
+    color:white;
+    text-align: center;
+    font-weight:700;
+    padding: 10px;
+}
