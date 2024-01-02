@@ -20,7 +20,10 @@ body {
     font-size: 25px;
     font-weight: 300;
 }
-#bandera{
-    width: 100px;
-    height: auto;
+#footer{
+    background-color: #777;
+    color:white;
+    text-align: center;
+    font-weight:700;
+    padding: 10px;
 }
