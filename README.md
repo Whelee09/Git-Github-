@@ -1,3 +1,4 @@
+###Lista de comandos mas utilizados
 - git innit. inicia el respositorio
 
 - ls -al. muestra los archivos ocultos
@@ -70,7 +71,7 @@
 - git show-branch --all. lo mismo pero con mas datos
 - gitk. intefaz grafica fina
 
-####recursos para el git ignore: 
+####Recursos para el git ignore: 
 se usa el mismo formato que el de la consola
 *.jpg . ignrora los arhivos .jpg
 https://www.toptal.com/developers/gitignore. facilita la creacion de gitignore
